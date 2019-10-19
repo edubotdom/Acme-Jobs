@@ -17,11 +17,11 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:list readonly="true">
-	<acme:list-column code="anonymous.vaquezBulletin.list.label.moment" path="moment" width="15%"/>
-	<acme:list-column code="anonymous.vaquezBulletin.list.label.author" path="author" width="15%"/>
-	<acme:list-column code="anonymous.vaquezBulletin.list.label.tennis_player" path="tennis_player" width="15%"/>
-	<acme:list-column code="anonymous.vaquezBulletin.list.label.comment" path="comment" width="50%"/>	
-	<acme:list-column code="anonymous.vaquezBulletin.list.label.punctuation" path="punctuation" width="5%"/>	
+	<acme:list-column code="anonymous.vazquezBulletin.list.label.moment" path="moment" width="15%"/>
+	<acme:list-column code="anonymous.vazquezBulletin.list.label.author" path="author" width="15%"/>
+	<acme:list-column code="anonymous.vazquezBulletin.list.label.tennis_player" path="tennis_player" width="15%"/>
+	<acme:list-column code="anonymous.vazquezBulletin.list.label.comment" path="comment" width="50%"/>	
+	<acme:list-column code="anonymous.vazquezBulletin.list.label.punctuation" path="punctuation" width="5%"/>	
 </acme:list>
 
 

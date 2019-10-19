@@ -18,6 +18,10 @@
 
 <tiles-definitions>
 
+	<definition name="anonymous/vazquez_bulletin/form" extends="master">
+		<put-attribute name="body" type="template" value="../anonymous/vazquez_bulletin/form.jsp" />
+	</definition>
+	
 	<definition name="anonymous/vazquez_bulletin/list" extends="master">
 		<put-attribute name="body" type="template" value="../anonymous/vazquez_bulletin/list.jsp" />
 	</definition>

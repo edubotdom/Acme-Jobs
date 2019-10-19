@@ -30,7 +30,10 @@ public class AnonymousVazquez_bulletinController extends AbstractController<Anon
 	// Internal state ---------------------------------------------------------
 
 	@Autowired
-	private AnonymousVazquez_bulletinListService listService;
+	private AnonymousVazquez_bulletinListService	listService;
+
+	@Autowired
+	private AnonymousVazquez_bulletinCreateService	createService;
 
 
 	// Constructors -----------------------------------------------------------
@@ -38,6 +41,7 @@ public class AnonymousVazquez_bulletinController extends AbstractController<Anon
 	@PostConstruct
 	private void initialise() {
 		super.addBasicCommand(BasicCommand.LIST, this.listService);
+		super.addBasicCommand(BasicCommand.CREATE, this.createService);
 	}
 
 }

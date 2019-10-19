@@ -8,8 +8,16 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
+anonymous.vazquezBulletin.form.label.moment = Fecha de publicacion
+anonymous.vazquezBulletin.form.label.author = Autor
+anonymous.vazquezBulletin.form.label.tennis_player = Jugador de tenis
+anonymous.vazquezBulletin.form.label.comment = Comentario
+anonymous.vazquezBulletin.form.label.punctuation = Puntuación
+anonymous.vazquezBulletin.form.button.create = Publicar ahora
+anonymous.vazquezBulletin.form.button.return = Volver
+
 anonymous.vazquezBulletin.list.label.moment = Fecha de publicacion
 anonymous.vazquezBulletin.list.label.author = Autor
 anonymous.vazquezBulletin.list.label.tennis_player = Jugador de tenis
 anonymous.vazquezBulletin.list.label.comment = Comentario
-anonymous.vazquezBulletin.list.label.punctuation = Puntuacion
+anonymous.vazquezBulletin.list.label.punctuation = Puntuación
