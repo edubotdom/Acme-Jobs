@@ -31,6 +31,8 @@
 
     drop table if exists `consumer`;
 
+    drop table if exists `noguerol_bulletin`;
+
     drop table if exists `provider`;
 
     drop table if exists `user_account`;

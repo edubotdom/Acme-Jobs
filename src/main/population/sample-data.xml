@@ -46,17 +46,17 @@
 	</bean>
 	
 	<!-- ARELLANOBULLETIN'S BEANS-->
-	<bean id="arellano_bulletin01" class="acme.entities.arellano_bulletin.Arellano_bulletin">
+	<bean id="arellano_bulletin01" class="acme.entities.arellano_bulletins.Arellano_bulletin">
 		<property name="pc" value="i7 7700K 16GB RAM GTX 1060"/>
 		<property name="moment" value="2017/06/21 15:22"/>
 	</bean>
 	
-	<bean id="arellano_bulletin02" class="acme.entities.arellano_bulletin.Arellano_bulletin">
+	<bean id="arellano_bulletin02" class="acme.entities.arellano_bulletins.Arellano_bulletin">
 		<property name="pc" value="i9 9900K 32GB RAM RTX 2080ti SUPER"/>
 		<property name="moment" value="2019/08/12 11:20"/>
 	</bean>
 	
-	<bean id="arellano_bulletin03" class="acme.entities.arellano_bulletin.Arellano_bulletin">
+	<bean id="arellano_bulletin03" class="acme.entities.arellano_bulletins.Arellano_bulletin">
 		<property name="pc" value="r5 3600X 16GB RAM RTX 2060 SUPER"/>
 		<property name="moment" value="2017/06/21 15:22"/>
    </bean>
@@ -87,6 +87,39 @@
 		<property name="comment" value="Unbeliable backhand, unbeliable volley, unbeliable forehand...."/>
 		<property name="punctuation" value="10"/>
 	</bean>
+	
+	<!-- NOGUEROLBULLETIN'S BEANS-->
+
+	<bean id="warrant01" class="acme.entities.noguerol_bulletins.Noguerol_bulletin">
+		<property name="name" value="Eduardo Miguel Botía Domingo"/>
+		<property name="amount" value="100.00"/>
+		<property name="moment" value="2019/09/03 11:41"/>
+	</bean>
+	
+	<bean id="warrant02" class="acme.entities.noguerol_bulletins.Noguerol_bulletin">
+		<property name="name" value="Juan Noguerol Tirado"/>
+		<property name="amount" value="5000.00"/>
+		<property name="moment" value="2019/08/02 23:48"/>
+	</bean>
+	
+	<bean id="warrant03" class="acme.entities.noguerol_bulletins.Noguerol_bulletin">
+		<property name="name" value="Daniel Arellano Martínez"/>
+		<property name="amount" value="100.00"/>
+		<property name="moment" value="2019/02/03 14:32"/>
+	</bean>
+	
+	<bean id="warrant04" class="acme.entities.noguerol_bulletins.Noguerol_bulletin">
+		<property name="name" value="Javier Vázquez Zambrano"/>
+		<property name="amount" value="100.00"/>
+		<property name="moment" value="2019/04/21 18:55"/>
+	</bean>
+	
+	<bean id="warrant05" class="acme.entities.noguerol_bulletins.Noguerol_bulletin">
+		<property name="name" value="Sergio Aguayyo Orozco"/>
+		<property name="amount" value="100.00"/>
+		<property name="moment" value="2019/09/03 19:42"/>
+	</bean>
+	
 	
 	<!-- SHOUT'S BEANS
 
