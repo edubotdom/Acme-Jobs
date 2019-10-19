@@ -13,6 +13,14 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `arellano_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `moment` datetime(6),
+        `pc` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `authenticated` (
        `id` integer not null,
         `version` integer not null,
