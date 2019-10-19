@@ -45,6 +45,33 @@
 		
 	</bean>
 	
+	<!-- VAZQUEZBULLETIN'S BEANS -->
+	
+	<bean id="vazquez_bulletin01" class="acme.entities.vazquez_bulletins.VazquezBulletin">
+		<property name="moment" value="2019/10/07 11:40"/>
+		<property name="author" value="Javier Vazquez"/>
+		<property name="tennis_player" value="Daniil Medvedev"/>
+		<property name="comment" value="He is an amazing player.
+		What he has done along this year is really awesome, maybe the player of the year"/>
+		<property name="punctuation" value="9"/>
+	</bean>
+	
+	<bean id="vazquez_bulletin02" class="acme.entities.vazquez_bulletins.VazquezBulletin">
+		<property name="moment" value="2014/01/07 12:42"/>
+		<property name="author" value="Rafa Nadal"/>
+		<property name="tennis_player" value="Nick Kirgyos"/>
+		<property name="comment" value="He might be one of the most talentous players, but his behavior is one of the worst "/>
+		<property name="punctuation" value="5"/>
+	</bean>
+	
+	<bean id="vazquez_bulletin03" class="acme.entities.vazquez_bulletins.VazquezBulletin">
+		<property name="moment" value="2016/01/07 13:42"/>
+		<property name="author" value="Anonymous"/>
+		<property name="tennis_player" value="Roger Federer"/>
+		<property name="comment" value="Unbeliable backhand, unbeliable volley, unbeliable forehand...."/>
+		<property name="punctuation" value="10"/>
+	</bean>
+	
 	<!-- SHOUT'S BEANS
 
 	<bean id="shout01" class="acme.entities.shouts.Shout">
