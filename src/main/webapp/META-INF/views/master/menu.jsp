@@ -41,6 +41,11 @@
 		<acme:menu-option code="master.menu.anonymous.arellanoBulletin" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.arellanoBulletin.list" action="/anonymous/arellano_bulletin/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.arellanoBulletin.create" action="/anonymous/arellano_bulletin/create"/>
+    </acme:menu-option>
+
+		<acme:menu-option code="master.menu.anonymous.vazquezBulletin" access="isAnonymous()">
+			<acme:menu-suboption code="master.menu.anonymous.vazquezBulletin.list" action="/anonymous/vazquez_bulletin/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.vazquezBulletin.create" action="/anonymous/vazquez_bulletin/create"/>
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
