@@ -163,6 +163,7 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
+      <x>679</x>
       <y>196</y>
       <w>154</w>
       <h>49</h>
@@ -315,7 +316,7 @@ Shout
     <id>UMLClass</id>
     <coordinates>
       <x>168</x>
-      <y>273</y>
+      <y>189</y>
       <w>266</w>
       <h>98</h>
     </coordinates>
@@ -333,7 +334,7 @@ botia_bulletin
     <id>UMLClass</id>
     <coordinates>
       <x>161</x>
-      <y>420</y>
+      <y>406</y>
       <w>252</w>
       <h>77</h>
     </coordinates>
@@ -342,13 +343,13 @@ arellano_bulletin
 --
 + pc: String{NotBlank}
 + moment: Date{Temporal(TIMESTAMP), Past}</panel_attributes>
-   <additional_attributes/>
+    <additional_attributes/>
   </element>
-      <element>
+  <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>42</x>
-      <y>385</y>
+      <x>161</x>
+      <y>301</y>
       <w>224</w>
       <h>91</h>
     </coordinates>
