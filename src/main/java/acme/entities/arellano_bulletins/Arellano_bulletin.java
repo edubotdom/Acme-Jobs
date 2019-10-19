@@ -1,5 +1,5 @@
 
-package acme.entities.arellano_bulletin;
+package acme.entities.arellano_bulletins;
 
 import java.util.Date;
 

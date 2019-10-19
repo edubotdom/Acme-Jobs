@@ -360,8 +360,24 @@ vazquez_bulletin
 + author: String (NotBlank)
 + tennis_player: String (NotBlank)
 + comment: String (NotBlank)
-+ punctuation: Integer (1-10)
++ punctuation: Double {Range(1-10)}
 </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>168</x>
+      <y>497</y>
+      <w>266</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+noguerol_bulletin
+--
++ moment: Date (Temporal(TIMESTAMP), Past)
++ name: String (NotBlank)
++ amount: Double {NotNull, Min(0), Digits(10, 2)}</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>

@@ -6,7 +6,7 @@ import java.util.Collection;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import acme.entities.arellano_bulletin.Arellano_bulletin;
+import acme.entities.arellano_bulletins.Arellano_bulletin;
 import acme.framework.repositories.AbstractRepository;
 
 @Repository

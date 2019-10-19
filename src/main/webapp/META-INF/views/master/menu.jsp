@@ -48,6 +48,11 @@
 			<acme:menu-suboption code="master.menu.anonymous.vazquezBulletin.create" action="/anonymous/vazquez_bulletin/create"/>
 		</acme:menu-option>
 		
+		<acme:menu-option code="master.menu.anonymous.noguerolBulletin" access="isAnonymous()">
+			<acme:menu-suboption code="master.menu.anonymous.noguerolBulletin.list" action="/anonymous/noguerol_bulletin/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.noguerolBulletin.create" action="/anonymous/noguerol_bulletin/create"/>
+		</acme:menu-option>
+		
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
 			<acme:menu-separator/>
