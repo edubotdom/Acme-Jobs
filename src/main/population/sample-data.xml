@@ -47,7 +47,7 @@
 	
 	<!-- VAZQUEZBULLETIN'S BEANS -->
 	
-	<bean id="vazquez_bulletin01" class="acme.entities.vazquez_bulletins.VazquezBulletin">
+	<bean id="vazquez_bulletin01" class="acme.entities.vazquez_bulletins.Vazquez_bulletin">
 		<property name="moment" value="2019/10/07 11:40"/>
 		<property name="author" value="Javier Vazquez"/>
 		<property name="tennis_player" value="Daniil Medvedev"/>
@@ -56,7 +56,7 @@
 		<property name="punctuation" value="9"/>
 	</bean>
 	
-	<bean id="vazquez_bulletin02" class="acme.entities.vazquez_bulletins.VazquezBulletin">
+	<bean id="vazquez_bulletin02" class="acme.entities.vazquez_bulletins.Vazquez_bulletin">
 		<property name="moment" value="2014/01/07 12:42"/>
 		<property name="author" value="Rafa Nadal"/>
 		<property name="tennis_player" value="Nick Kirgyos"/>
@@ -64,7 +64,7 @@
 		<property name="punctuation" value="5"/>
 	</bean>
 	
-	<bean id="vazquez_bulletin03" class="acme.entities.vazquez_bulletins.VazquezBulletin">
+	<bean id="vazquez_bulletin03" class="acme.entities.vazquez_bulletins.Vazquez_bulletin">
 		<property name="moment" value="2016/01/07 13:42"/>
 		<property name="author" value="Anonymous"/>
 		<property name="tennis_player" value="Roger Federer"/>

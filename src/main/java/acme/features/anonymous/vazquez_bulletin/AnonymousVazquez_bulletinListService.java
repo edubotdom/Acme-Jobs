@@ -17,40 +17,40 @@ import java.util.Collection;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.vazquez_bulletins.VazquezBulletin;
+import acme.entities.vazquez_bulletins.Vazquez_bulletin;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
 import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractListService;
 
 @Service
-public class AnonymousVazquezBulletinListService implements AbstractListService<Anonymous, VazquezBulletin> {
+public class AnonymousVazquez_bulletinListService implements AbstractListService<Anonymous, Vazquez_bulletin> {
 
 	// Internal state ---------------------------------------------------------
 
 	@Autowired
-	AnonymousVazquezBulletinRepository repository;
+	AnonymousVazquez_bulletinRepository repository;
 
 
 	@Override
-	public boolean authorise(final Request<VazquezBulletin> request) {
+	public boolean authorise(final Request<Vazquez_bulletin> request) {
 		assert request != null;
 
 		return true;
 	}
 
 	@Override
-	public Collection<VazquezBulletin> findMany(final Request<VazquezBulletin> request) {
+	public Collection<Vazquez_bulletin> findMany(final Request<Vazquez_bulletin> request) {
 		assert request != null;
 
-		Collection<VazquezBulletin> result;
+		Collection<Vazquez_bulletin> result;
 
 		result = this.repository.findMany();
 		return result;
 	}
 
 	@Override
-	public void unbind(final Request<VazquezBulletin> request, final VazquezBulletin entity, final Model model) {
+	public void unbind(final Request<Vazquez_bulletin> request, final Vazquez_bulletin entity, final Model model) {
 		assert request != null;
 		assert entity != null;
 		assert model != null;

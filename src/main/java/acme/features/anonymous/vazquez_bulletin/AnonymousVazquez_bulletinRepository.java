@@ -17,12 +17,12 @@ import java.util.Collection;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import acme.entities.vazquez_bulletins.VazquezBulletin;
+import acme.entities.vazquez_bulletins.Vazquez_bulletin;
 import acme.framework.repositories.AbstractRepository;
 
 @Repository
-public interface AnonymousVazquezBulletinRepository extends AbstractRepository {
+public interface AnonymousVazquez_bulletinRepository extends AbstractRepository {
 
-	@Query("select v from VazquezBulletin v")
-	Collection<VazquezBulletin> findMany();
+	@Query("select v from Vazquez_bulletin v")
+	Collection<Vazquez_bulletin> findMany();
 }
