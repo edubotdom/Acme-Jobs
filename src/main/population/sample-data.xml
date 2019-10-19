@@ -120,6 +120,28 @@
 		<property name="moment" value="2019/09/03 19:42"/>
 	</bean>
 	
+		<!-- AguayoBulletin BEANS -->
+	
+	<bean id="aguayo_bulletin01" class="acme.entities.aguayo_bulletin.Aguayo_bulletin">
+		<property name="title" value="Hunter x Hunter (2011)"/>
+		<property name="episodes" value="148"/>
+		<property name="aired" value="2011/10/02 00:00"/>
+		<property name="director" value="Masao Maruyama"/>
+	</bean>
+	
+	<bean id="aguayo_bulletin02" class="acme.entities.aguayo_bulletin.Aguayo_bulletin">
+		<property name="title" value="Yojouhan Shinwa Taikei"/>
+		<property name="episodes" value="11"/>
+		<property name="aired" value="2010/04/23 00:00"/>
+		<property name="director" value="Masaaki Yuasa"/>
+	</bean>
+	
+	<bean id="aguayo_bulletin03" class="acme.entities.aguayo_bulletin.Aguayo_bulletin">
+		<property name="title" value="Hinamatsuri"/>
+		<property name="episodes" value="12"/>
+		<property name="aired" value="2018/04/06 00:00"/>
+		<property name="director" value="Kei Oikawa"/>
+	</bean>
 	
 	<!-- SHOUT'S BEANS
 

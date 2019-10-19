@@ -21,6 +21,8 @@
 
     drop table if exists `administrator`;
 
+    drop table if exists `aguayo_bulletin`;
+
     drop table if exists `anonymous`;
 
     drop table if exists `arellano_bulletin`;

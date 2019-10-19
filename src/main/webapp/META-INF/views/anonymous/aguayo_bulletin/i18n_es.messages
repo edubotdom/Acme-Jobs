@@ -1,0 +1,20 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+anonymous.aguayoBulletin.form.label.title = Título:
+anonymous.aguayoBulletin.form.label.episodes = Nº episodios:
+anonymous.aguayoBulletin.form.label.director = Director:
+anonymous.aguayoBulletin.form.button.create = Publicar
+anonymous.aguayoBulletin.form.button.return = Volver
+
+anonymous.aguayoBulletin.list.label.title = Título
+anonymous.aguayoBulletin.list.label.episodes = Nº episodios
+anonymous.aguayoBulletin.list.label.aired = Fecha de emisión
+anonymous.aguayoBulletin.list.label.director = Director

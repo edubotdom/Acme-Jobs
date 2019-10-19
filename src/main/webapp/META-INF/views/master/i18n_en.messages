@@ -52,6 +52,13 @@ master.menu.anonymous.noguerolBulletin = NoguerolBulletin
 master.menu.anonymous.noguerolBulletin.create = Create bulletin
 master.menu.anonymous.noguerolBulletin.list= List bulletin
 
+
+# master.menu.anonymous.aguayoBulletin #########################################
+
+master.menu.anonymous.aguayoBulletin = AguayoBulletin
+master.menu.anonymous.aguayoBulletin.create = Create bulletin
+master.menu.anonymous.aguayoBulletin.list= List bulletin
+
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anonymous

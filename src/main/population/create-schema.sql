@@ -6,6 +6,16 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `aguayo_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `aired` datetime(6),
+        `director` varchar(255),
+        `episodes` integer,
+        `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `anonymous` (
        `id` integer not null,
         `version` integer not null,
