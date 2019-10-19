@@ -36,6 +36,11 @@ master.menu.anonymous.botiaBulletin = BotíaBulletin
 master.menu.anonymous.botiaBulletin.create = Crear boletín
 master.menu.anonymous.botiaBulletin.list= Listar boletines
 
+# master.menu.anonymous.vazquezBulletin #########################################
+master.menu.anonymous.vazquezBulletin = VázquezBulletin
+master.menu.anonymous.vazquezBulletin.create = Crear boletín
+master.menu.anonymous.vazquezBulletin.list= Listar boletines
+
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anónimo
