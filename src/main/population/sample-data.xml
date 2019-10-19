@@ -143,7 +143,7 @@
 		<property name="director" value="Kei Oikawa"/>
 	</bean>
 	
-	<!-- SHOUT'S BEANS
+	<!-- SHOUT'S BEANS -->
 
 	<bean id="shout01" class="acme.entities.shouts.Shout">
 		<property name="author" value="Eduardo Miguel Botía Domingo"/>
@@ -174,5 +174,4 @@
 		<property name="text" value="Mensaje de prueba 5"/>
 		<property name="moment" value="2019/09/03 19:42"/>
 	</bean>
--->
 </beans>

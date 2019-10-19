@@ -12,7 +12,7 @@ anonymous.botiaBulletin.form.label.author = Author:
 anonymous.botiaBulletin.form.label.expiring_date = Expiring date:
 anonymous.botiaBulletin.form.label.title = Title:
 anonymous.botiaBulletin.form.label.text_body = Bulletin text:
-anonymous.botiaBulletin.form.button.create = Shout!
+anonymous.botiaBulletin.form.button.create = Publish
 anonymous.botiaBulletin.form.button.return = Return
 
 anonymous.botiaBulletin.list.label.moment = Publish date

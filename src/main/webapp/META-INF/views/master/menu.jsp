@@ -27,12 +27,12 @@
 			<acme:menu-suboption code="master.menu.anonymous.seraguoro-favourite-link" action="https://www.youtube.com/watch?v=73GI6uS_4Ic"/>
 			
 		</acme:menu-option>
-<!--		
+		
 		<acme:menu-option code="master.menu.anonymous.shout" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.shout.list" action="/anonymous/shout/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.shout.create" action="/anonymous/shout/create"/>
 		</acme:menu-option>
--->		
+	
 		<acme:menu-option code="master.menu.anonymous.botiaBulletin" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.botiaBulletin.list" action="/anonymous/botia_bulletin/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.botiaBulletin.create" action="/anonymous/botia_bulletin/create"/>
