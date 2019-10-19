@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+- sample-data.xml
+-
+- Copyright (c) 2019 Rafael Corchuelo.
+-
+- In keeping with the traditional purpose of furthering education and research, it is
+- the policy of the copyright owner to permit non-commercial use and redistribution of
+- this software. It has been tested carefully, but it is not guaranteed for any particular
+- purposes.  The copyright owner does not offer any warranties or representations, nor do
+- they accept any liabilities with respect to them.
+-->
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<import resource="conversion-service.xml" />
+	
+	<!-- BOTIABULLETIN'S BEANS-->
+	<bean id="botia_bulletin01" class="acme.entities.botia_bulletins.Botia_bulletin">
+		<property name="moment" value="2018/10/05 05:12"/>
+		<property name="expiring_date" value="2021/03/01 04:20"/>
+		<property name="author" value="Eduardo Miguel Botía Domingo"/>
+		<property name="title" value="Title 1"/>
+		<property name="text_body" value="Mensaje de prueba 1"/>
+		
+	</bean>
+	
+	<bean id="botia_bulletin02" class="acme.entities.botia_bulletins.Botia_bulletin">
+		<property name="moment" value="2015/11/02 06:11"/>
+		<property name="expiring_date" value="2041/04/09 08:11"/>
+		<property name="author" value="Eduardo Miguel Botía Domingo"/>
+		<property name="title" value="Title 2"/>
+		<property name="text_body" value="Mensaje de prueba 2"/>
+		
+	</bean>
+	
+	<bean id="botia_bulletin03" class="acme.entities.botia_bulletins.Botia_bulletin">
+		<property name="moment" value="2011/11/04 11:42"/>
+		<property name="expiring_date" value="2041/10/22 21:54"/>
+		<property name="author" value="Eduardo Miguel Botía Domingo"/>
+		<property name="title" value="Title 3"/>
+		<property name="text_body" value="Mensaje de prueba 3"/>
+		
+	</bean>
+	
+	<!-- SHOUT'S BEANS
+
+	<bean id="shout01" class="acme.entities.shouts.Shout">
+		<property name="author" value="Eduardo Miguel Botía Domingo"/>
+		<property name="text" value="Mensaje de prueba 1"/>
+		<property name="moment" value="2019/09/03 11:41"/>
+	</bean>
+	
+	<bean id="shout02" class="acme.entities.shouts.Shout">
+		<property name="author" value="Eduardo Miguel Botía Domingo"/>
+		<property name="text" value="Mensaje de prueba 2"/>
+		<property name="moment" value="2019/08/02 23:48"/>
+	</bean>
+	
+	<bean id="shout03" class="acme.entities.shouts.Shout">
+		<property name="author" value="Eduardo Miguel Botía Domingo"/>
+		<property name="text" value="Mensaje de prueba 3"/>
+		<property name="moment" value="2019/02/03 14:32"/>
+	</bean>
+	
+	<bean id="shout04" class="acme.entities.shouts.Shout">
+		<property name="author" value="Eduardo Miguel Botía Domingo"/>
+		<property name="text" value="Mensaje de prueba 4"/>
+		<property name="moment" value="2019/04/21 18:55"/>
+	</bean>
+	
+	<bean id="shout05" class="acme.entities.shouts.Shout">
+		<property name="author" value="Eduardo Miguel Botía Domingo"/>
+		<property name="text" value="Mensaje de prueba 5"/>
+		<property name="moment" value="2019/09/03 19:42"/>
+	</bean>
+-->
+</beans>
