@@ -36,6 +36,11 @@ master.menu.anonymous.botiaBulletin = BotíaBulletin
 master.menu.anonymous.botiaBulletin.create = Create bulletin
 master.menu.anonymous.botiaBulletin.list= List bulletin
 
+# master.menu.anonymous.arellanoBulletin ######################################
+master.menu.anonymous.arellanoBulletin = ArellanoBulletin
+master.menu.anonymous.arellanoBulletin.create = Create bulletin
+master.menu.anonymous.arellanoBulletin.list = List bulletin
+
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anonymous

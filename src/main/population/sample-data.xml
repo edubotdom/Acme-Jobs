@@ -45,6 +45,22 @@
 		
 	</bean>
 	
+	<!-- ARELLANOBULLETIN'S BEANS-->
+	<bean id="arellano_bulletin01" class="acme.entities.arellano_bulletin.Arellano_bulletin">
+		<property name="pc" value="i7 7700K 16GB RAM GTX 1060"/>
+		<property name="moment" value="2017/06/21 15:22"/>
+	</bean>
+	
+	<bean id="arellano_bulletin02" class="acme.entities.arellano_bulletin.Arellano_bulletin">
+		<property name="pc" value="i9 9900K 32GB RAM RTX 2080ti SUPER"/>
+		<property name="moment" value="2019/08/12 11:20"/>
+	</bean>
+	
+	<bean id="arellano_bulletin03" class="acme.entities.arellano_bulletin.Arellano_bulletin">
+		<property name="pc" value="r5 3600X 16GB RAM RTX 2060 SUPER"/>
+		<property name="moment" value="2017/06/21 15:22"/>
+	</bean>
+	
 	<!-- SHOUT'S BEANS
 
 	<bean id="shout01" class="acme.entities.shouts.Shout">

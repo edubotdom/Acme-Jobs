@@ -38,6 +38,11 @@
 			<acme:menu-suboption code="master.menu.anonymous.botiaBulletin.create" action="/anonymous/botia_bulletin/create"/>
 		</acme:menu-option>
 		
+		<acme:menu-option code="master.menu.anonymous.arellanoBulletin" access="isAnonymous()">
+			<acme:menu-suboption code="master.menu.anonymous.arellanoBulletin.list" action="/anonymous/arellano_bulletin/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.arellanoBulletin.create" action="/anonymous/arellano_bulletin/create"/>
+		</acme:menu-option>
+		
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
 			<acme:menu-separator/>
