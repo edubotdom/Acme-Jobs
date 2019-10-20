@@ -28,7 +28,7 @@ public class Aguayo_bulletin extends DomainEntity {
 	@NotBlank
 	private String				title;
 
-	@Digits(fraction = 0, integer = 9999)
+	@Digits(fraction = 0, integer = 5)
 	@Positive
 	private Integer				episodes;
 
