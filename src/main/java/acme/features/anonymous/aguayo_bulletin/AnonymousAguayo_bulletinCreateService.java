@@ -45,13 +45,15 @@ public class AnonymousAguayo_bulletinCreateService implements AbstractCreateServ
 
 	}
 
+	@SuppressWarnings("deprecation")
 	@Override
 	public Aguayo_bulletin instantiate(final Request<Aguayo_bulletin> request) {
 		assert request != null;
 		Aguayo_bulletin result;
 		Date aired;
 
-		aired = new Date(System.currentTimeMillis() - 1);
+		int year = 2019, month = 1, day = 7;
+		aired = new Date(year - 1900, month - 1, day);
 
 		result = new Aguayo_bulletin();
 		result.setTitle("Mob Psycho 100 II");
@@ -76,9 +78,9 @@ public class AnonymousAguayo_bulletinCreateService implements AbstractCreateServ
 		assert request != null;
 		assert entity != null;
 
-		Date aired;
-		aired = new Date(System.currentTimeMillis() - 1);
-		entity.setAired(aired);
+		//Date aired;
+		//aired = new Date(System.currentTimeMillis() - 1);
+		//entity.setAired(aired);
 		this.repository.save(entity);
 	}
 

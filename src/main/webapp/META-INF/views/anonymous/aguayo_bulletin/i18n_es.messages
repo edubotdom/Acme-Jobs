@@ -11,6 +11,7 @@
 anonymous.aguayoBulletin.form.label.title = Título:
 anonymous.aguayoBulletin.form.label.episodes = Nº episodios:
 anonymous.aguayoBulletin.form.label.director = Director:
+anonymous.aguayoBulletin.form.label.aired = Fecha de emisión:
 anonymous.aguayoBulletin.form.button.create = Publicar
 anonymous.aguayoBulletin.form.button.return = Volver
 

@@ -19,9 +19,8 @@
 
 	<acme:form-textbox code="anonymous.aguayoBulletin.form.label.title" path="title"/>
 	<acme:form-textbox code="anonymous.aguayoBulletin.form.label.episodes" path="episodes"/>
-<!-- 	<acme:form-moment code="anonymous.aguayoBulletin.form.label.aired" path="aired"/> -->
+    <acme:form-moment code="anonymous.aguayoBulletin.form.label.aired" path="aired"/>
 	<acme:form-textbox code="anonymous.aguayoBulletin.form.label.director" path="director"/>
-	
 	<acme:form-submit code="anonymous.aguayoBulletin.form.button.create" action="/anonymous/aguayo_bulletin/create"/>
   	<acme:form-return code="anonymous.aguayoBulletin.form.button.return"/>
 </acme:form>

@@ -11,6 +11,7 @@
 anonymous.aguayoBulletin.form.label.title = Tittle:
 anonymous.aguayoBulletin.form.label.episodes = Nº episodes:
 anonymous.aguayoBulletin.form.label.director = Director:
+anonymous.aguayoBulletin.form.label.aired = Aired on:
 anonymous.aguayoBulletin.form.button.create = Create
 anonymous.aguayoBulletin.form.button.return = Return
 

@@ -17,7 +17,6 @@
 
 <acme:form>
 
-	<acme:form-moment code="anonymous.vazquezBulletin.form.label.moment" path="moment"/>
 	<acme:form-textbox code="anonymous.vazquezBulletin.form.label.author" path="author"/>
 	<acme:form-textarea code="anonymous.vazquezBulletin.form.label.tennis_player" path="tennis_player"/>
 	<acme:form-textarea code="anonymous.vazquezBulletin.form.label.comment" path="comment"/>
